@@ -92,6 +92,11 @@ You: Send Telegram message
 Chatbot: Provide the Telegram Bot Token, Chat ID, and message.
 ➡️ Sends messages to Telegram using Bot API.
 
+
+Author
+Email: iankwach00@gmail.com
+Linkedin: https://www.linkedin.com/in/ian-kwach-otieno-aa571a210/
+
 📅 Schedule a Meeting
 plaintext
 Copy
