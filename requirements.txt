@@ -1,0 +1,17 @@
+nltk
+tensorflow
+keras
+numpy
+pandas
+scikit-learn
+Flask
+requests
+python-telegram-bot
+python-pptx
+reportlab
+PyMuPDF
+Pillow
+oauth2client
+google-api-python-client
+smtplib
+email

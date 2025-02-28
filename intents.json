@@ -1,0 +1,63 @@
+{
+    "intents": [
+        {
+            "tag": "greeting",
+            "patterns": ["Hello", "Hi", "Hey", "Good morning", "Good evening"],
+            "responses": ["Hey! How can I assist you?", "Hello! What can I do for you?", "Hi there! How can I help?"]
+        },
+        {
+            "tag": "goodbye",
+            "patterns": ["Bye", "Goodbye", "See you later"],
+            "responses": ["Goodbye! Have a great day!", "See you later!", "Bye! Let me know if you need anything."]
+        },
+        {
+            "tag": "email",
+            "patterns": ["Send an email", "Write an email", "Help me email my boss"],
+            "responses": ["Sure! Enter the recipient's email, subject, and body."],
+            "action": "send_email"
+        },
+        {
+            "tag": "edit_ppt",
+            "patterns": ["Edit PowerPoint", "Modify PPT", "Update presentation"],
+            "responses": ["Which PowerPoint file should I edit?"],
+            "action": "edit_ppt"
+        },
+        {
+            "tag": "sign_pdf",
+            "patterns": ["Sign PDF", "Add signature to PDF", "Digitally sign document"],
+            "responses": ["Upload the PDF file and the signature image."],
+            "action": "sign_pdf"
+        },
+        {
+            "tag": "download_file",
+            "patterns": ["Download file", "Save file from URL", "Fetch document"],
+            "responses": ["Enter the file URL and save location."],
+            "action": "download_file"
+        },
+        {
+            "tag": "telegram_message",
+            "patterns": ["Send Telegram message", "Send message to Telegram", "Notify via Telegram"],
+            "responses": ["Provide the Telegram Bot Token, Chat ID, and message."],
+            "action": "send_telegram_message"
+        },
+        {
+            "tag": "schedule_meeting",
+            "patterns": ["Schedule meeting", "Book an appointment", "Google Calendar event"],
+            "responses": ["Enter the meeting title, date, and time."],
+            "action": "schedule_meeting"
+        },
+        {
+            "tag": "generate_report",
+            "patterns": ["Generate report", "Create Excel report", "Make sales report"],
+            "responses": ["What type of report do you need? I can create an Excel or PDF report."],
+            "action": "generate_report"
+        },
+        {
+            "tag": "unknown",
+            "patterns": ["What can you do?", "How can you help?", "What tasks do you perform?"],
+            "responses": [
+                "I can send emails, edit PowerPoint files, sign PDFs, download files, send Telegram messages, schedule meetings, and generate reports!"
+            ]
+        }
+    ]
+}
